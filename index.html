@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/tailwincss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300;1,600&display=swap" rel="stylesheet">
+    <title>Landing page 03 (by darich)</title>
+</head>
+<body>
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+        @media (min-width:1500px){
+        	 .slay{
+	        	top: 22%;
+	        	right: 27%;
+        	}
+        }
+
+        .slay{
+	        	top: 20%;
+	        	right: 30%;
+        	}
+
+
+       
+    </style>
+    <div id="container" class="mx-12 2xl:mx-32">
+        <!-- Navigation -->
+        <nav class="py-8 flex flex-row items-center text-md">
+            <!-- logo -->
+            <div class="basis-1/2"> <img src="/images/Logo.svg" alt=""> </div>
+            <div class="flex basis-1/2 space-x-12 justify-between items-center">
+                <ul class="flex justify-between space-x-6">
+                    <li><a href="#">How it Work?</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Payment</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                <div class="flex space-x-6 items-center">
+                    <a href="#" class="border border-gray px-4 py-2 rounded-lg">Sign up</a>
+                    <a href="#" class="bg-black text-white px-4 py-2 rounded-lg text-center">Sign in</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <div class="relative flex items-center justify-between" style="background: url('/images/Background.png'); background-repeat: no-repeat; background-position: top right;">
+            <!-- right side -->
+            <div class="w-1/2 flex flex-col space-y-12">
+                <!-- title -->
+                <h2 class="font-bold text-6xl">Make Your
+                    Payment More 
+                    Secure</h2>
+                    <!-- description -->
+
+                <p class="text-leading text-sm w-3/4 2lx:w-full 2lx:text-md text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultricies varius risus justo, in lectus. Diam fermentum pharetra sed fringilla.</p>
+                <!-- action button -->
+                <a href="#" class="text-black bg-gradient-to-r from-purple via-blue to-yellow self-start px-4 py-2 rounded-full font-bold 2xl:px-6 2lx:py-4 2xl:text-2xl">Get started</a>
+            </div>
+            <!-- left side -->
+            <div>
+                <img src="/images/Saly-13.png" alt="">
+            </div>
+            <img src="/images/Saly-45.png" alt="" class="absolute slay">
+        </div>
+    </div>
+</body>
+</html>
